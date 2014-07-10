@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Clucker</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<head>
+  		<title>Clucker</title></div>
+ 		 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  		<%= csrf_meta_tags %>
 </head>
 <body>
 
-<h1><a href="localhost:3000">Clucker</h1></a> <center><h3><menu><a href="/main/about">About</a> <a href="/main/signup">Sign Up</a> <a href="/main/media">Media</a> <a href="/main/contact"> Contact</a> <a href="/main/cluckit">Cluck It</a></menu></h3></center>
+<div class="header">
+<div class="logo"><h1>Clucker</h1></div>
+<div class="menu_item"><ul>
+	<li class="menu_item"><a href="/main/about">About</a></li>
+	<li class="menu_item"><a href="/main/signup">Sign Up</a></li>
+	<li class="menu_item"><a href="/main/media">Media</a></li>
+	<li class="menu_item"><a href="/main/contact"> Contact</a></li>
+	<li class="menu_item"><a href="/main/cluckit">Cluck It</a></li>
+</ul></div>
+<div class="login_button"><input type="button" value="Login"></div>
+</div>  
 
 <%= yield %>
 
