@@ -5,7 +5,7 @@ root 'main#index'
   get 'main/about'
   get 'main/signup'
   get 'main/media'
-  get 'main/help'
+  get 'main/cluckit'
   get 'main/contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
