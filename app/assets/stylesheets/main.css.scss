@@ -1,20 +1,29 @@
 
 .login_button {display: inline-block; float: right;}
-.menu_item {display: inline-block; position: center;}
-.logo {display: inline-block;}
-.header{background: red; width: 100%; display: inline-block;}
+.menu_item {display: inline-block;}
+.logo {display: inline-block; font-family: 'Indie_Flower', cursive; font-weight: 400; font-size: 200%; color: blue;}
+.header{background: white; opacity: .8; width: 100%; display: inline-block;}
 
-.image { position: relative;width: 100%; }
+body{background-image: url(http://www.washingtonpost.com/blogs/going-out-guide/files/2013/05/HillCountryBackyardBBQ-005.jpg); 
 
-h2 {
-	color: blue;
-	position: absolute;
-	top: 200px;
-	left: 0;
-	width: 100%;}
+}
+
+
 
 h3 {
 	float:center;}
+
+.slogan {
+	color: white;
+	font-size: 300%;
+	font-family: 'Indie_Flower', cursive; font-weight: 400;
+}
+
+.description {
+	color: white;
+	font-size: 200%;
+	font-family: 'Indie_Flower', cursive; font-weight: 400;
+}
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
