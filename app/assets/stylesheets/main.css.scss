@@ -1,10 +1,42 @@
 
-.login_button {display: inline-block; float: right;}
-.menu_item {display: inline-block;}
-.logo {display: inline-block; font-family: 'Indie_Flower', cursive; font-weight: 400; font-size: 200%; color: blue;}
-.header{background: white; opacity: .8; width: 100%; display: inline-block;}
+.login_button {
+	display: inline-block; 
+	float: right;
+	border-top: 1px solid #96d1f8;
+   	background: #65a9d7;
+   	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   	padding: 7px 14px;
+   	-webkit-border-radius: 15px;
+   	-moz-border-radius: 15px;
+   	border-radius: 15px;
+   	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   	color: white;
+   	font-size: 16px;
+   	font-family: Helvetica, Arial, Sans-Serif;
+   	text-decoration: none;
+   	vertical-align: middle;
+}
 
-body{background-image: url(http://www.washingtonpost.com/blogs/going-out-guide/files/2013/05/HillCountryBackyardBBQ-005.jpg); 
+.menu_item {
+	display: inline-block;
+	color: white;
+}
+
+.header{
+	background: white; 
+	opacity: .8; 
+	width: 100%; 
+	display: inline-block;}
+
+body{
+	background-image: url(http://www.washingtonpost.com/blogs/going-out-guide/files/2013/05/HillCountryBackyardBBQ-005.jpg); 
 
 }
 
@@ -17,13 +49,28 @@ h3 {
 	color: white;
 	font-size: 300%;
 	font-family: 'Indie_Flower', cursive; font-weight: 400;
+	text-shadow: 4px 4px 4px rgba(149, 150, 150, 1);
+	text-align: center;
 }
 
 .description {
 	color: white;
 	font-size: 200%;
 	font-family: 'Indie_Flower', cursive; font-weight: 400;
+	position: fixed;
+	width: 400px;
+	padding: 10px;
+	margin: 10px;
+	top:50%;
+	left: 50%;
+	margin-top:-50px;
+	margin-left:-200px;
+	background: blue;
+	opacity: .6;
 }
+
+
+
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
