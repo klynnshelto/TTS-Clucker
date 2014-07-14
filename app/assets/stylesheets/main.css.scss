@@ -35,11 +35,6 @@
 	width: 100%; 
 	display: inline-block;}
 
-body{
-	background-image: url(http://www.washingtonpost.com/blogs/going-out-guide/files/2013/05/HillCountryBackyardBBQ-005.jpg); 
-
-}
-
 
 
 h3 {
@@ -48,7 +43,7 @@ h3 {
 .slogan {
 	color: white;
 	font-size: 300%;
-	font-family: 'Indie_Flower', cursive; font-weight: 400;
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-shadow: 4px 4px 4px rgba(149, 150, 150, 1);
 	text-align: center;
 }
@@ -56,18 +51,67 @@ h3 {
 .description {
 	color: white;
 	font-size: 200%;
-	font-family: 'Indie_Flower', cursive; font-weight: 400;
+	font-family: 'Open Sans Condensed', sans-serif;
 	position: fixed;
-	width: 400px;
-	padding: 10px;
+	width: 500px;
+	padding: 30px;
 	margin: 10px;
-	top:50%;
+	top:60%;
 	left: 50%;
 	margin-top:-50px;
-	margin-left:-200px;
+	margin-left:-260px;
 	background: blue;
 	opacity: .6;
 }
+
+.Signup {
+	color: #0099FF;
+	font-size: 450%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	text-shadow: 4px 4px 4px rgba(149, 150, 150, 1);
+	text-align: center;
+}
+
+.index_background{
+	opacity:.7;
+}
+
+.login{
+	text-align: center;
+	position: fixed;
+	width: 200px;
+	padding: 5px;
+	margin: 5px;
+	top:35%;
+	left: 50%;
+	margin-top:-40px;
+	margin-left:-100px;
+	background: blue;
+	opacity: .7;
+}
+
+.about_welcome{
+	color: #0099FF;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+}
+
+.about_tagline{
+	color: #0099FF;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+}
+
+
+.social_media_image{
+	text-align: center;
+
+}
+
+
 
 
 
