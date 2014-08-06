@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  		<title>Clucker</title></div>
- 		 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  		<title>Clucker</title></div> 
+ 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+ 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   		<%= csrf_meta_tags %>
 </head>
@@ -16,9 +17,8 @@
 	<li class="menu_item"><a href="/main/contact"> Contact</a></li>
 	<li class="menu_item"><a href="/main/cluckit">Cluck It</a></li>
 </ul></div>
-<div class="login_button"><input type="button" value="Login"></div>
+<div class="login_button"><input type="button" value="Login"/></div>
 </div> 
-
 <%= yield %>
 
 </body>

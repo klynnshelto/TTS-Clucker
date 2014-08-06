@@ -7,6 +7,7 @@ root 'main#index'
   get 'main/media'
   get 'main/cluckit'
   get 'main/contact'
+  post 'api/woot'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

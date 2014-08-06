@@ -65,8 +65,8 @@ h3 {
 }
 
 .Signup {
-	color: #0099FF;
-	font-size: 450%;
+	color: white;
+	font-size: 200%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 400;
 	text-shadow: 4px 4px 4px rgba(149, 150, 150, 1);
@@ -111,9 +111,24 @@ h3 {
 
 }
 
+.login{
+	color: white;
+
+}
 
 
-
+#SignupForm {
+	background:white;
+	color: gray;
+	font-family: 'Open Sans Condensed', sans-serif;
+	opacity: .8;
+	width: 300px;
+	position: fixed;
+	top:35%;
+	left: 50%;
+	margin-top:-40px;
+	margin-left:-100px;
+}
 
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
